@@ -58,7 +58,7 @@ export default {
                     .then(data => {
                         this.term = data
 
-                        fetch(`http://143.110.244.164`)
+                        fetch(`https://a50693e5a786.ngrok.io`)
                             .then(response => response.json())
                             .then(data => {
                                 this.announcements = data
